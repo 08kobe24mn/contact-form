@@ -9,6 +9,7 @@ class ContactController extends Controller
 {
     public function index()
     {
+        $test = 1111;
         return view('index');
     }
 
