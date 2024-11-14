@@ -10,6 +10,9 @@ class ContactController extends Controller
     public function index()
     {
         $test = 1111;
+
+
+        $register = '認証機能作った';
         return view('index');
     }
 
